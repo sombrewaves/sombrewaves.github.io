@@ -1,0 +1,78 @@
+body{
+    font-family: 'Sriracha', cursive;
+    background-color: #7affce;
+    font-size: 62.5%;
+    margin: 0%;
+}
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.square {
+    width: 30%;
+    background-color:#ff78db ;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+}
+
+h1{
+    color:#5cc2ff ;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+
+}
+
+#color-display{
+    display: block;
+    font-size: 2rem;
+}
+
+#stripe{
+    background:#da95ff ;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+
+#mensaje{
+    color: thistle;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 20%;
+}
+
+button{
+    color:#00e1ff ;
+    font-family: 'Turret Road', cursive;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+    height: 100%;
+    letter-spacing: 1px;
+    -webkit-transition: all 10s;
+    -moz-transition: all 10s;
+}
+
+button:hover{
+    background-color: #ffa27a;
+}
+
+.selected{
+    background-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.square{
+    border-radius: 20%;
+}
+
+*{
+    border: 0px solid red;
+}
